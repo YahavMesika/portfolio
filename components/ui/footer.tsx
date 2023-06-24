@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 
 export default function Footer() {
+  const full_Name = "Ori Keysar"
   return (
     <footer>
       <div className="py-12 md:py-16">
@@ -20,7 +21,11 @@ export default function Footer() {
                   </svg>
                 </Link>
               </div>
-              <div className="text-gray-400">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</div>
+              <div className="text-gray-400"> Thank you for visiting my portfolio website.<br/> 
+            I'm {full_Name}, a fourth-year B.Sc. Industrial Engineering & Management with Information System Expertise student<br/>
+            With a strong passion for web development and industrial engineering.<br/>
+             Feel free to explore my projects and skills, and don't hesitate to reach out to discuss potential collaborations or opportunities.<br/> <br/>
+             Let's connect and create something remarkable together </div>
             </div>
 
             {/* 2nd, 3rd and 4th blocks */}

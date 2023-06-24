@@ -1,4 +1,5 @@
 export default function Features() {
+  const full_Name = "Ori Keysar"
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -6,8 +7,13 @@ export default function Features() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">The majority our customers do not understand their workflows.</h2>
-            <p className="text-xl text-gray-400">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <h2 className="h2 mb-4">Hi,I'm {full_Name}<br/>Nice to meet you!.</h2>
+            <p className="text-xl text-gray-400">Thank you for visiting my portfolio website.<br/> 
+            I'm {full_Name}, a fourth-year B.Sc. Industrial Engineering & Management with Information System Expertise student<br/><br/>
+            With a strong passion for web development and industrial engineering, I strive for excellence in every project I undertake.<br/><br/> 
+            Through my analytical skills, fast learning abilities, and dedication, I aim to make a positive impact in the field.<br/>
+             Feel free to explore my projects and skills, and don't hesitate to reach out to discuss potential collaborations or opportunities.<br/> <br/>
+             Let's connect and create something remarkable together.<br/></p>
           </div>
 
           {/* Items */}
@@ -20,19 +26,19 @@ export default function Features() {
                 <path className="stroke-current text-purple-100" d="M30 39.313l-4.18 2.197L27 34.628l-5-4.874 6.91-1.004L32 22.49l3.09 6.26L42 29.754l-3 2.924" strokeLinecap="square" strokeWidth="2" fill="none" fillRule="evenodd" />
                 <path className="stroke-current text-purple-300" d="M43 42h-9M43 37h-9" strokeLinecap="square" strokeWidth="2" />
               </svg>
-              <h4 className="h4 mb-2">Instant Features</h4>
-              <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
+              <h4 className="h4 mb-4  text-center">	Softwares</h4>
+              <p className="text-lg text-gray-400 text-center">MSQL, Spss, Ms Project, Knime, Qlik, Tableau, Arena, Word, PowerPoint, Excel</p>
             </div>
 
             {/* 2nd item */}
-            <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="100" data-aos-anchor="[data-aos-id-blocks]">
+            <div className="relative flex flex-col items-center " data-aos="fade-up" data-aos-delay="100" data-aos-anchor="[data-aos-id-blocks]">
               <svg className="w-16 h-16 mb-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <circle className="fill-current text-purple-600" cx="32" cy="32" r="32" />
                 <path className="stroke-current text-purple-100" strokeWidth="2" strokeLinecap="square" d="M21 23h22v18H21z" fill="none" fillRule="evenodd" />
                 <path className="stroke-current text-purple-300" d="M26 28h12M26 32h12M26 36h5" strokeWidth="2" strokeLinecap="square" />
               </svg>
-              <h4 className="h4 mb-2">Instant Features</h4>
-              <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
+              <h4 className="h4 mb-4 text-center">programming languages/technologies </h4>
+              <p className="text-lg text-gray-400 text-center">C++, C#, .NET, ASP.NET, HTML5, CSS, JavaScript, TypeScript, jQuery, Angular, TailWind.css, React.js.</p>
             </div>
 
             {/* 3rd item */}
@@ -45,11 +51,12 @@ export default function Features() {
                   <circle className="stroke-current text-purple-100" cx="11" cy="11" r="11" />
                 </g>
               </svg>
-              <h4 className="h4 mb-2">Instant Features</h4>
-              <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
+              <h4 className="h4 mb-4  text-center">information systems analysis and characterization</h4>
+              <p className="text-lg text-gray-400 text-center">ERD, BPMN, USE CASE, CLASS MODEL, SEQUENCE MODEL, State 
+              Chart Modal</p>
             </div>
-
-            {/* 4th item */}
+{/* 
+            4th item
             <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="300" data-aos-anchor="[data-aos-id-blocks]">
               <svg className="w-16 h-16 mb-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <rect className="fill-current text-purple-600" width="64" height="64" rx="32" />
@@ -60,10 +67,10 @@ export default function Features() {
               </svg>
               <h4 className="h4 mb-2">Instant Features</h4>
               <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
-            </div>
+            </div> */}
 
             {/* 5th item */}
-            <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="400" data-aos-anchor="[data-aos-id-blocks]">
+            {/* <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="400" data-aos-anchor="[data-aos-id-blocks]">
               <svg className="w-16 h-16 mb-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <rect className="fill-current text-purple-600" width="64" height="64" rx="32" />
                 <g strokeLinecap="square" strokeWidth="2" fill="none" fillRule="evenodd">
@@ -73,10 +80,10 @@ export default function Features() {
               </svg>
               <h4 className="h4 mb-2">Instant Features</h4>
               <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
-            </div>
+            </div> */}
 
             {/* 6th item */}
-            <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="500" data-aos-anchor="[data-aos-id-blocks]">
+            {/* <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="500" data-aos-anchor="[data-aos-id-blocks]">
               <svg className="w-16 h-16 mb-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <rect className="fill-current text-purple-600" width="64" height="64" rx="32" />
                 <g transform="translate(21 22)" strokeLinecap="square" strokeWidth="2" fill="none" fillRule="evenodd">
@@ -87,7 +94,7 @@ export default function Features() {
               </svg>
               <h4 className="h4 mb-2">Instant Features</h4>
               <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
-            </div>
+            </div> */}
 
           </div>
 

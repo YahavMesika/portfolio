@@ -1,8 +1,8 @@
 import Image from 'next/image'
 
-import FeatImage01 from '@/public/images/features-03-image-01.png'
-import FeatImage02 from '@/public/images/features-03-image-02.png'
-import FeatImage03 from '@/public/images/features-03-image-03.png'
+import FeatImage01 from '@/public/images/regroup-dash.jpg'
+import FeatImage02 from '@/public/images/github-finder.jpg'
+import FeatImage03 from '@/public/images/houses-markting.jpg'
 
 export default function Zigzag() {
   return (
@@ -13,8 +13,8 @@ export default function Zigzag() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-green-600 bg-green-200 rounded-full mb-4">Reach goals that matter</div>
-            <h1 className="h2 mb-4">One product, unlimited solutions</h1>
-            <p className="text-xl text-gray-400">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum — semper quis lectus nulla.</p>
+            <h1 className="h2 mb-4">My Recent Work</h1>
+            <p className="text-xl text-gray-400">Here are a few past design projects I've worked on.</p>
           </div>
 
           {/* Items */}
@@ -24,32 +24,40 @@ export default function Zigzag() {
             <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
               {/* Image */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1" data-aos="fade-up">
-                <Image className="max-w-full mx-auto md:max-w-none h-auto" src={FeatImage01} width={540} height={405} alt="Features 01" />
+              <a href="https://regroup-a4654.web.app/">
+                <Image className="max-w-full mx-auto md:max-w-none h-auto" src={FeatImage01} width={540} height={405} alt="Features 01"  />
+                </a>
               </div>
               {/* Content */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
-                  <div className="font-architects-daughter text-xl text-purple-600 mb-2">More speed. Less spend</div>
-                  <h3 className="h3 mb-3">Keep projects on schedule</h3>
-                  <p className="text-xl text-gray-400 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <div className="font-architects-daughter text-xl text-purple-600 mb-2">Final Project-Industrial Engineering </div>
+                  <h3 className="h3 mb-3">ReGroup</h3>
+                  <p className="text-xl text-gray-400 mb-4">A system for finding or creating face-to-face meetings , anywhere and in real time.</p>
                   <ul className="text-lg text-gray-400 -mb-2">
                     <li className="flex items-center mb-2">
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Duis aute irure dolor in reprehenderit</span>
+                      <span>Find learning groups by advanced filters or location</span>
                     </li>
                     <li className="flex items-center mb-2">
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Excepteur sint occaecat</span>
+                      <span>Mobile or email notifications when a suitable group is opened</span>
                     </li>
                     <li className="flex items-center">
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Amet consectetur adipiscing elit</span>
+                      <span>Add/invite learning partners based on past experiences with them.</span>
+                    </li>
+                    <li className="flex items-center">
+                      <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                      </svg>
+                      <span>Implemented by React.js & FirebaseDB & C#+.NET</span>
                     </li>
                   </ul>
                 </div>
@@ -59,69 +67,80 @@ export default function Zigzag() {
             {/* 2nd item */}
             <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
               {/* Image */}
-              <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 rtl" data-aos="fade-up">
-                <Image className="max-w-full mx-auto md:max-w-none h-auto" src={FeatImage02} width={540} height={405} alt="Features 02" />
+              <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1" data-aos="fade-up">
+              <a href="https://github-react-app-pearl.vercel.app/">
+                <Image className="max-w-full mx-auto md:max-w-none h-auto" src={FeatImage02} width={540} height={405} alt="Features 01"  />
+                </a>
               </div>
               {/* Content */}
-              <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-left">
-                <div className="md:pl-4 lg:pl-12 xl:pl-16">
-                  <div className="font-architects-daughter text-xl text-purple-600 mb-2">More speed. Less spend</div>
-                  <h3 className="h3 mb-3">Keep projects on schedule</h3>
-                  <p className="text-xl text-gray-400 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
+                <div className="md:pr-4 lg:pr-12 xl:pr-16">
+                  <div className="font-architects-daughter text-xl text-purple-600 mb-2"></div>
+                  <h3 className="h3 mb-3">Github Finder
+</h3>
+                  <p className="text-xl text-gray-400 mb-4">Use github api to search user and dispaly all their badge and repos</p>
                   <ul className="text-lg text-gray-400 -mb-2">
                     <li className="flex items-center mb-2">
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Duis aute irure dolor in reprehenderit</span>
+                      <span>Find users by name</span>
                     </li>
                     <li className="flex items-center mb-2">
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Excepteur sint occaecat</span>
+                      <span>See users work in a more convenient way </span>
                     </li>
                     <li className="flex items-center">
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Amet consectetur adipiscing elit</span>
+                      <span>Implemented by React.js & Github Api</span>
                     </li>
                   </ul>
                 </div>
               </div>
             </div>
 
-            {/* 3rd item */}
-            <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
+             {   /* 3nd item */}
+              <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
               {/* Image */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1" data-aos="fade-up">
-                <Image className="max-w-full mx-auto md:max-w-none h-auto" src={FeatImage03} width={540} height={405} alt="Features 03" />
+              <a href="https://github-react-app-pearl.vercel.app/">
+                <Image className="max-w-full mx-auto md:max-w-none h-auto" src={FeatImage03} width={540} height={405} alt="Features 01"  />
+                </a>
               </div>
               {/* Content */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
-                  <div className="font-architects-daughter text-xl text-purple-600 mb-2">More speed. Less spend</div>
-                  <h3 className="h3 mb-3">Keep projects on schedule</h3>
-                  <p className="text-xl text-gray-400 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <div className="font-architects-daughter text-xl text-purple-600 mb-2"></div>
+                  <h3 className="h3 mb-3">House Markting App</h3>
+                  <p className="text-xl text-gray-400 mb-4">A personal website project for displaying apartments for sale and rent, any user can register and offer his house. The project focuses on working with the Firebase server and working with various APIs.</p>
                   <ul className="text-lg text-gray-400 -mb-2">
                     <li className="flex items-center mb-2">
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Duis aute irure dolor in reprehenderit</span>
+                      <span>register and offer Your house.</span>
                     </li>
                     <li className="flex items-center mb-2">
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Excepteur sint occaecat</span>
+                      <span>See list of houses for sale. </span>
+                    </li>
+                    <li className="flex items-center mb-2">
+                      <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                      </svg>
+                      <span>Upload your house images and info. </span>
                     </li>
                     <li className="flex items-center">
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Amet consectetur adipiscing elit</span>
+                      <span>Implemented with the Firebase server and working with various APIs.</span>
                     </li>
                   </ul>
                 </div>

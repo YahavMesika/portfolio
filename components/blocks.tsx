@@ -1,4 +1,5 @@
 export default function Blocks() {
+  const full_Name = "Ori Keysar"
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -6,8 +7,11 @@ export default function Blocks() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">The majority our customers do not understand their workflows.</h2>
-            <p className="text-xl text-gray-400">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <h2 className="h2 mb-4">Hi,I'm {full_Name},Nice to meet you.</h2>
+            <p className="text-xl text-gray-400">I'm fourth-year B.Sc. Industrial Engineering & Management with Information System Expertise student.<br/>  
+           .I have high standards, strong motivation, and ability to learn quickly.<br/>
+           
+           </p>
           </div>
 
           {/* Items */}
