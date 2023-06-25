@@ -17,6 +17,7 @@ export default function Header() {
             <div className="md:flex md:items-center md:justify-between">
             {/* Social links */}
          <ul className="flex mb-4 md:order-1 md:ml-4 md:mb-0">
+         <p className='mr-8' >Phone number: 052-7416677</p>
 <p>Social:</p>
          <li className="ml-4">
     <Link href="https://github.com/Orikeysar/" className="flex justify-center items-center text-purple-600 bg-gray-800 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out" aria-label="Github">

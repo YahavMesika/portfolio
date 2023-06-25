@@ -38,8 +38,12 @@ export default function Newsletter() {
             <a className="font-medium hover:underline hover:text-xl text-purple-200 mb-2 text-lg text-center" href={cv_Shered_Url} target="_blank" rel="noreferrer">
                 See my CV
               </a>
+              
             </div>
-     
+            <span className="italic px-1.5">or</span>{' '}
+              <p className="font-medium hover:underline text-emerald-400"  >
+                Call: 052-7416677
+              </p>
 
 
             </div>

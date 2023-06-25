@@ -24,6 +24,10 @@ const git_Hub_Profile_Link = "https://github.com/Orikeysar"
               <a className="font-medium hover:underline text-emerald-400" href={cv_Shered_Url} target="_blank" rel="noreferrer">
                 See my CV
               </a>
+              <span className="italic px-1.5">or</span>{' '}
+              <p className="font-medium hover:underline text-emerald-400"  >
+                Call: 052-7416677
+              </p>
             </div>
             <button className="text-slate-500 hover:text-slate-400 pl-2 ml-3 border-l border-gray-700" onClick={() => setBannerOpen(false)}>
               <span className="sr-only">Close</span>

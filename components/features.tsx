@@ -38,7 +38,7 @@ export default function Features() {
                 <path className="stroke-current text-purple-300" d="M26 28h12M26 32h12M26 36h5" strokeWidth="2" strokeLinecap="square" />
               </svg>
               <h4 className="h4 mb-4 text-center">programming languages/technologies </h4>
-              <p className="text-lg text-gray-400 text-center">C++, C#, .NET, ASP.NET, HTML5, CSS, JavaScript, TypeScript, jQuery, Angular, TailWind.css, React.js.</p>
+              <p className="text-lg text-gray-400 text-center">C++, C#, .NET, ASP.NET, HTML5, CSS, JavaScript, TypeScript, jQuery, Angular, TailWind.css, React.js, Advence SQL , FirebaseDB,No-Sql Database</p>
             </div>
 
             {/* 3rd item */}
