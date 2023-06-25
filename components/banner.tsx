@@ -18,7 +18,7 @@ const git_Hub_Profile_Link = "https://github.com/Orikeysar"
                 target="_blank"
                 rel="noreferrer"
               >
-                see<span className="hidden sm:inline"> my GitHub</span>
+                Go to GitHub
               </a>{' '}
               <span className="italic px-1.5">or</span>{' '}
               <a className="font-medium hover:underline text-emerald-400" href={cv_Shered_Url} target="_blank" rel="noreferrer">

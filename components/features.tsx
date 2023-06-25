@@ -7,7 +7,7 @@ export default function Features() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">Hi,I'm {full_Name}<br/>Nice to meet you!.</h2>
+            <h2 className="h2 mb-4">Nice to meet you!</h2>
             <p className="text-xl text-gray-400">Thank you for visiting my portfolio website.<br/> 
             I'm {full_Name}, a fourth-year B.Sc. Industrial Engineering & Management with Information System Expertise student<br/><br/>
             With a strong passion for web development and industrial engineering, I strive for excellence in every project I undertake.<br/><br/> 

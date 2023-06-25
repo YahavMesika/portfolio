@@ -1,6 +1,6 @@
-import VideoThumb from '@/public/images/hero-image-01.jpg'
-import ModalVideo from '@/components/modal-video'
+import Image from 'next/image'
 
+import profileImg from '../public/images/DSC_9313.jpg'
 export default function Hero() {
   const full_Name = "Ori Keysar"
   return (
@@ -31,15 +31,8 @@ export default function Hero() {
              <br/>I thrive on creating beautifully simple experiences</p>
           </div>
 
-          <ModalVideo
-            thumb={VideoThumb}
-            thumbWidth={1024}
-            thumbHeight={576}
-            thumbAlt="Modal video thumbnail"
-            video="/videos/video.mp4"
-            videoWidth={1920}
-            videoHeight={1080} />
-
+          
+<Image className="max-w-full mx-auto md:max-w-none h-auto" src={profileImg} width={540} height={405} alt="profileImg"  />
         </div>
 
       </div>

@@ -3,7 +3,10 @@ import Image from 'next/image'
 import FeatImage01 from '@/public/images/regroup-dash.jpg'
 import FeatImage02 from '@/public/images/github-finder.jpg'
 import FeatImage03 from '@/public/images/houses-markting.jpg'
-
+import FeatImage04 from '@/public/images/databaseMengment.jpg'
+import FeatImage05 from '@/public/images/qlik.jpg'
+import FeatImage05a from '@/public/images/qlik1.jpg'
+import FeatImage05b from '@/public/images/qlik2.jpg'
 export default function Zigzag() {
   return (
     <section>
@@ -25,7 +28,8 @@ export default function Zigzag() {
               {/* Image */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1" data-aos="fade-up">
               <a href="https://regroup-a4654.web.app/">
-                <Image className="max-w-full mx-auto md:max-w-none h-auto" src={FeatImage01} width={540} height={405} alt="Features 01"  />
+                <Image className="max-w-full mx-auto md:max-w-none h-auto" src={FeatImage01} width={540} height={405} alt="ReGroup"  />
+                <p className='text-center text-purple-600 hover:underline'>Click on the image to see the project in detailed</p>
                 </a>
               </div>
               {/* Content */}
@@ -69,7 +73,8 @@ export default function Zigzag() {
               {/* Image */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1" data-aos="fade-up">
               <a href="https://github-react-app-pearl.vercel.app/">
-                <Image className="max-w-full mx-auto md:max-w-none h-auto" src={FeatImage02} width={540} height={405} alt="Features 01"  />
+                <Image className="max-w-full mx-auto md:max-w-none h-auto" src={FeatImage02} width={540} height={405} alt="git-finder"  />
+                <p className='text-center text-purple-600 hover:underline'>Click on the image to see the project in detailed</p>
                 </a>
               </div>
               {/* Content */}
@@ -108,7 +113,8 @@ export default function Zigzag() {
               {/* Image */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1" data-aos="fade-up">
               <a href="https://github-react-app-pearl.vercel.app/">
-                <Image className="max-w-full mx-auto md:max-w-none h-auto" src={FeatImage03} width={540} height={405} alt="Features 01"  />
+                <Image className="max-w-full mx-auto md:max-w-none h-auto" src={FeatImage03} width={540} height={405} alt="House Markting"  />
+                <p className='text-center text-purple-600 hover:underline'>Click on the image to see the project in detailed</p>
                 </a>
               </div>
               {/* Content */}
@@ -147,8 +153,103 @@ export default function Zigzag() {
               </div>
             </div>
 
-          </div>
 
+            {   /* 4nd item */}
+              <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
+              {/* Image */}
+              <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1" data-aos="fade-up">
+              <a href="https://1drv.ms/b/s!AiLcgmv3UEulg8c94DxJzCjeJN0wAQ?e=bpNTbW">
+                <Image className="max-w-full mx-auto md:max-w-none h-auto" src={FeatImage04} width={540} height={405} alt="Database Management"  />
+                <p className='text-center text-purple-600 hover:underline'>Click on the image to see the project in detailed</p>
+                </a>
+              </div>
+              {/* Content */}
+              <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
+                <div className="md:pr-4 lg:pr-12 xl:pr-16">
+                  <div className="font-architects-daughter text-xl text-purple-600 mb-2"></div>
+                  <h3 className="h3 mb-3">Database Management</h3>
+                  <p className="text-xl text-gray-400 mb-4">A personal analysis project for Database Management and characterization. Final task for Database Management course  .</p>
+                  <ul className="text-lg text-gray-400 -mb-2">
+                    <li className="flex items-center mb-2">
+                      <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                      </svg>
+                      <span>Creating a frame story.</span>
+                    </li>
+                    <li className="flex items-center mb-2">
+                      <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                      </svg>
+                      <span>ERD model construction according to the story. </span>
+                    </li>
+                    <li className="flex items-center mb-2">
+                      <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                      </svg>
+                      <span>Conversion to normalized tables (3NF). </span>
+                    </li>
+                    <li className="flex items-center">
+                      <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                      </svg>
+                      <span>relational algebra, advanced SQL queries.</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            {   /* 5nd item */}
+              <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
+              {/* Image */}
+              <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1" data-aos="fade-up">
+              <a href="">
+                <Image className="max-w-full mx-auto md:max-w-none h-auto" src={FeatImage05} width={540} height={202} alt="BI project"  />
+                <Image className="max-w-full mx-auto md:max-w-none h-auto" src={FeatImage05a} width={540} height={202} alt="BI project"  />
+                <Image className="max-w-full mx-auto md:max-w-none h-auto" src={FeatImage05b} width={540} height={202} alt="BI project"  />
+                <p className='text-center text-purple-600 hover:underline'>Click on the image to see the project in detailed</p>
+                </a>
+              </div>
+              {/* Content */}
+              <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
+                <div className="md:pr-4 lg:pr-12 xl:pr-16">
+                  <div className="font-architects-daughter text-xl text-purple-600 mb-2"></div>
+                  <h3 className="h3 mb-3">BI project</h3>
+                  <p className="text-xl text-gray-400 mb-4">A personal analysis project for Database Management and characterization. Final task for Database Management course  .</p>
+                  <ul className="text-lg text-gray-400 -mb-2">
+                    <li className="flex items-center mb-2">
+                      <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                      </svg>
+                      <span>selected data set, a complete BI system </span>
+                    </li>
+                    <li className="flex items-center mb-2">
+                      <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                      </svg>
+                      <span>Contains the schema and interface Dashboard analysis. </span>
+                    </li>
+                    <li className="flex items-center mb-2">
+                      <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                      </svg>
+                      <span>Qlik framework. </span>
+                    </li>
+                    <li className="flex items-center">
+                      <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                      </svg>
+                      <span>Real company analysis.</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+
+
+
+          </div>
         </div>
       </div>
     </section>
