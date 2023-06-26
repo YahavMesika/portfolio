@@ -9,7 +9,7 @@ export default function Header() {
           {/* Site branding */}
           <div className="shrink-0 mr-4">
             {/* Logo */}
-            <p >Ori Keysar porotoplio </p>
+            <p >Ori Keysar </p>
           </div>
 
 
