@@ -25,10 +25,11 @@ export default function Hero() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h3 className="h1 mb-4" data-aos="fade-up">{full_Name}:<br/> Industrial Engineering & Web Development</h3>
-            <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">Crafting elegant web solutions, seamlessly blending design and code.
-             <br/>Passionate about industrial engineering and web application development,
-             <br/>I thrive on creating beautifully simple experiences</p>
+            <h3 className="h1 mb-4" data-aos="fade-up">{full_Name}<br/> B.Sc. Industrial Engineering & Management<br/>Specialization in Data Science</h3>
+            <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">
+            I am a highly motivated and passionate individual with a strong foundation in data analysis.<br/>
+            I have a deep thirst for knowledge in the data sector.
+             <br/>available for full-time position</p>
           </div>
 
           
