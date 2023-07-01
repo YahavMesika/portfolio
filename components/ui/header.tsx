@@ -71,10 +71,23 @@ export default function Header() {
                   </a>
                 </Link>
               </li>
+              <li className="ml-2">
+                <a href="mailto:yahavmesika@gmail.com" className="flex justify-center items-center text-purple-600 bg-gray-800 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out" aria-label="Email">
+                  <svg
+                    className="w-8 h-8 fill-current"
+                    viewBox="0 0 32 32"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M16 0C7.2 0 0 7.2 0 16s7.2 16 16 16 16-7.2 16-16S24.8 0 16 0zm0 2.9c3.8 0 6.9 3.1 6.9 6.9 0 1.7-.6 3.4-1.8 4.8v.2l-.2.3c-2.8 3.1-3.8 4.3-4 4.6-.1.1-.3.1-.4.1s-.3 0-.4-.1c-.2-.2-1.2-1.5-4-4.6l-.2-.3v-.2c-1.2-1.4-1.8-3.1-1.8-4.8 0-3.8 3.1-6.9 6.9-6.9zm0 3.6l7.5 5.1c.1.1.1.3.1.4s-.1.3-.1.4l-7.5 5.1c-.1.1-.2.1-.3.1-.1 0-.3-.1-.4-.1l-7.5-5.1c-.1-.1-.1-.3-.1-.4s.1-.3.1-.4L15.7 6.6c.1-.1.2-.1.3-.1s.3.1.4.1z" />
+                  </svg>
+                </a>
+              </li>
             </ul>
           </div>
         </div>
       </div>
     </header>
- 
+  );
+}
+
 
