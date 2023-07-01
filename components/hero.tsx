@@ -24,14 +24,13 @@ export default function Hero() {
         <div className="relative pt-32 pb-10 md:pt-40 md:pb-16">
 
           {/* Section header*/}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h3 className="h1 mb-4" data-aos="fade-up">{full_Name}<br/> <span className="text-gray-500">B.Sc. Industrial Engineering & Management</span><br/>Specialization in Data Science</h3>
-            <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">
-            I am a highly motivated and passionate individual with a strong foundation in data analysis.<br/>
-            I have a deep thirst for knowledge in the data sector.
+          <div className="max-w-5xl mx-auto text-center pb-12 md:pb-16">
+              <h3 className="h1 mb-4" data-aos="fade-up">{full_Name}<br/> <span className="text-gray-500">B.Sc. Industrial Engineering & Management</span><br/>Specialization in Data Science</h3>
+              <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">
+                  I'm a highly motivated and passionate individual with a strong foundation in data analysis.<br/>
+                   I have a deep thirst for knowledge in the data sector.
              <br/>available for full-time position</p>
           </div>
-        
 
           
 <Image className="max-w-full mx-auto md:max-w-none h-auto" src={profileImg} width={540} height={405} alt="profileImg"  />
