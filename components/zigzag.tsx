@@ -35,9 +35,9 @@ export default function Zigzag() {
               {/* Content */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
-                  <div className="font-architects-daughter text-xl text-purple-600 mb-2">Final Project-Industrial Engineering </div>
-                  <h3 className="h3 mb-3">ReGroup</h3>
-                  <p className="text-xl text-gray-400 mb-4">A system for finding or creating face-to-face meetings , anywhere and in real time.</p>
+                  <div className="font-architects-daughter text-xl text-purple-600 mb-2">NoSQL project </div>
+                  <h3 className="h3 mb-3"> Developed in mongoDB tool</h3>
+                  <p className="text-xl text-gray-400 mb-4">creating a database, writing functions in JSON and queries.</p>
                   <ul className="text-lg text-gray-400 -mb-2">
                     <li className="flex items-center mb-2">
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
