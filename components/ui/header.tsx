@@ -118,7 +118,7 @@ export default function Header() {
               </li>
               <li className="ml-2">
                 <a href="mailto:yahavmesika@gmail.com" className="flex justify-center items-center text-purple-600 bg-gray-800 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out" aria-label="Email">
-                  <svg className="w-8 h-8 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="w-8 h-8" viewBox="0 0 24 24" fill="currentColor">
                     <path d="M21,5H3C1.346,5,0,6.346,0,8v8c0,1.654,1.346,3,3,3h18c1.654,0,3-1.346,3-3V8C24,6.346,22.654,5,21,5z M21,16.086   l-7.84-5.227c-0.165-0.109-0.36-0.109-0.525,0L3,16.086V8h18V16.086z"/>
                     <path d="M20.19,8L12,13.757L3.81,8H20.19z M4.056,9L12,13.566L19.944,9H4.056z"/>
                   </svg>
