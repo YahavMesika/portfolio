@@ -9,7 +9,7 @@ export default function Header() {
           {/* Site branding */}
           <div className="shrink-0 mr-2 mb-2">
             {/* Logo */}
-            <p>Yahav Mesika </p>
+            <p> yahavmesika@gmail.com </p>
           </div>
 
           <div className="md:flex md:items-center md:justify-between">
