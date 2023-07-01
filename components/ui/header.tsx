@@ -69,42 +69,4 @@ export default function Header() {
       </div>
     </header>
   );
-// }
-// import Link from "next/link";
-// import MobileMenu from "./mobile-menu";
-
-// export default function Header() {
-//   return (
-//     <header className="absolute w-full z-30">
-//       <div className="max-w-6xl mx-auto px-4 sm:px-6">
-//         <div className="flex items-center justify-between h-20">
-//           {/* Site branding */}
-//           <div className="shrink-0 mr-2 mb-2">
-//             {/* Logo */}
-//             <p>Yahav Mesika </p>
-//           </div>
-
-//           <div className="md:flex md:items-center md:justify-between">
-//             {/* Social links */}
-//             <ul className="flex  md:order-1 md:ml-4 md:mb-0">
-//               <p className="mr-2"> 054-2522677</p>
-//               <p>Social:</p>
-//               <li className="ml-2">
-//                 <Link
-//                   href="https://www.linkedin.com/in/yahav-mesika/"
-//                   className="flex justify-center items-center text-purple-600 bg-gray-800 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out"
-//                   aria-label="LinkedIn"
-//                 >
-//                   <FaLinkedin />
-//                 </Link>
-//               </li>
-//             </ul>
-//           </div>
-//         </div>
-//       </div>
-//     </header>
-//   );
-// }
-
-
-
+}
