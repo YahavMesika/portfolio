@@ -57,7 +57,7 @@ export default function Header() {
             {/* Social links */}
             <ul className="flex  md:order-1 md:ml-4 md:mb-0">
               <p className="mr-2">054-2522677</p>
-              <p>LinkedIn:</p>
+              <p>LinkedIn:    </p>
               <li className="ml-2">
                 <Link href="https://www.linkedin.com/in/yahav-mesika/">
                   <a className="flex justify-center items-center text-purple-600 bg-gray-800 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out" aria-label="LinkedIn">
@@ -72,8 +72,9 @@ export default function Header() {
                 </Link>
               </li>
               <li className="ml-2">
-                <br> </br>
+
                 <p>Mail</p>
+                <p>   </p>
                 <a href="mailto:yahavmesika@gmail.com" className="flex justify-center items-center text-purple-600 bg-gray-800 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out" aria-label="Email">
                   <svg xmlns="http://www.w3.org/2000/svg" className="w-8 h-8" viewBox="0 0 24 24" fill="currentColor">
                     className="w-8 h-8 fill-current"
