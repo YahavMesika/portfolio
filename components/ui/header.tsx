@@ -173,7 +173,6 @@
 //     </header>
 //   );
 // }
-npm install react-icons
 import { FaLinkedin } from 'react-icons/fa';
 import Link from "next/link";
 import MobileMenu from "./mobile-menu";
