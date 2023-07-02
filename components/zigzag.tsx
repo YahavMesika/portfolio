@@ -35,9 +35,9 @@ export default function Zigzag() {
               {/* Content */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
-                  <div className="font-architects-daughter text-xl text-purple-600 mb-2">NoSQL project </div>
+                  <div className="font-architects-daughter text-xl text-purple-600 mb-4">NoSQL project </div>
                   <h3 className="h3 mb-3"> Developed in mongoDB tool</h3>
-                  <p className="text-xl text-gray-400 mb-4">Creating a database, Writing functions in JSON and queries.</p>
+                  <p className="text-xl text-gray-400 mb-4">Creating a database, Writing functions and queries.</p>
                   <ul className="text-lg text-gray-400 -mb-2">
                     <li className="flex items-center mb-2">
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -73,12 +73,19 @@ export default function Zigzag() {
             {/* 2nd item */}
             <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
               {/* Image */}
-              <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1" data-aos="fade-up">
+              {/* <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1" data-aos="fade-up">
               <a href="https://github-react-app-pearl.vercel.app/">
                 <Image className="max-w-full mx-auto md:max-w-none h-auto" src={FeatImage02} width={540} height={405} alt="git-finder"  />
                 <p className='text-center text-purple-600 hover:underline'>Click on the image to see the project in detailed</p>
                 </a>
-              </div>
+              </div> */}
+                <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1" data-aos="fade-up"></div>
+                      <video className="max-w-full mx-auto md:max-w-none h-auto" src="C:\Users\Yahav\Documents\GitHub\portfolio\public\videos\BI Project-Football analysis1.mp4" controls width={540} height={405} alt="git-finder" />
+                        <p className='text-center text-purple-600 hover:underline'>Click on the video to see the project in detail</p>
+                </div>
+
+
+
               {/* Content */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
