@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-import FeatImage01 from '@/public/images/regroup-dash.jpg'
+import FeatImage01 from '@/public/images/FootballS.jpg'
 import FeatImage02 from '@/public/images/github-finder.jpg'
 import FeatImage03 from '@/public/images/houses-markting.jpg'
 import FeatImage04 from '@/public/images/databaseMengment.jpg'
@@ -27,9 +27,9 @@ export default function Zigzag() {
             <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
               {/* Image */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1" data-aos="fade-up">
-              <a href="https://regroup-a4654.web.app/">
+              <a href="https://github.com/YahavMesika/NoSQL-project/blob/main/MongoDB_script.txt">
                 <Image className="max-w-full mx-auto md:max-w-none h-auto" src={FeatImage01} width={540} height={405} alt="ReGroup"  />
-                <p className='text-center text-purple-600 hover:underline'>Click on the image to see the project in detailed</p>
+                <p className='text-center text-purple-600 hover:underline'>Click on the image to see the script</p>
                 </a>
               </div>
               {/* Content */}
@@ -55,7 +55,7 @@ export default function Zigzag() {
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span><br/>Created custom queries to extract specific data subsets, enabling detailed analysis and generating meaningful insights for decision-making purposes.</span>
+                      <span>Created custom queries to extract specific data subsets, enabling detailed analysis and generating meaningful insights for decision-making purposes.</span>
                     </li>
                     {/* delete from here */}
                     {/* <li className="flex items-center">
