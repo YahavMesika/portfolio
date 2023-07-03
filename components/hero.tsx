@@ -1,7 +1,6 @@
 import Image from 'next/image'
 
-import profileImg from '../public/images/DSC_9313.jpg'
-export default function Hero() {
+import profileImg from '../public/images/me.jpg'
   const full_Name = "Yahav Mesika"
   return (
     <section>
