@@ -1,6 +1,7 @@
 import Image from 'next/image'
 
-// import profileImg from 'C:\Users\Yahav\Documents\GitHub\portfolio\public\images\me.jpg'
+import profileImg from '../public/images/DSC_9313.jpg'
+export default function Hero() {
   const full_Name = "Yahav Mesika"
   return (
     <section>
@@ -32,7 +33,7 @@ import Image from 'next/image'
           </div>
         
           
-{/* <Image className="max-w-full mx-auto md:max-w-none h-auto" src={profileImg} width={1080} height={810} alt="profileImg"  /> */}
+<Image className="max-w-full mx-auto md:max-w-none h-auto" src={profileImg} width={540} height={405} alt="profileImg"  />
         </div>
 
       </div>
