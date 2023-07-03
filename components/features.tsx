@@ -43,7 +43,7 @@
 
 
 export default function Features() {
-  const full_Name = "Ori Keysar"
+  const full_Name = "Yahav Mesika"
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
