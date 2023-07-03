@@ -27,7 +27,7 @@ export default function Features() {
                 <path className="stroke-current text-purple-300" d="M43 42h-9M43 37h-9" strokeLinecap="square" strokeWidth="2" />
               </svg>
               <h4 className="h4 mb-4  text-center">Achievements</h4>
-              <p className="text-lg text-gray-400 text-center">2022 - ML Hackathon winner <br></br> 2023 - ML Hackathon winner </p>
+              <p className="text-lg text-gray-400 text-center">2022 - ML Hackathon winner</p><p> 2023 - ML Hackathon winner </p>
             </div> 
 
             {/* 2nd item */}
