@@ -81,8 +81,9 @@ export default function Zigzag() {
               {/* Content */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
+                <div className="font-architects-daughter text-xl text-purple-600 mb-4">BI project </div>
                   <div className="font-architects-daughter text-xl text-purple-600 mb-2"></div>
-                  <h3 className="h3 mb-3">BI project
+                  <h3 className="h3 mb-3">Developed in Qlik Sense
                   </h3>
                   <p className="text-xl text-gray-400 mb-4">Analyzed football data to identify key performance indicators and insights for team managers and coaches. Investigated the relationship between fan size and goal scoring.</p>
                   <ul className="text-lg text-gray-400 -mb-2">
