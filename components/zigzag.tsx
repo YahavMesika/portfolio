@@ -73,12 +73,12 @@ export default function Zigzag() {
             {/* 2nd item */}
             <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
               {/* Image */}
-              {/* <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1" data-aos="fade-up">
-              <a href="https://github-react-app-pearl.vercel.app/">
+              <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1" data-aos="fade-up">
+              <a href="https://youtu.be/1FOgoble-Vs">
                 <Image className="max-w-full mx-auto md:max-w-none h-auto" src={FeatImage02} width={540} height={405} alt="git-finder"  />
                 <p className='text-center text-purple-600 hover:underline'>Click on the image to see the project in detailed</p>
                 </a>
-              </div> */}
+              </div>
                 <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1" data-aos="fade-up"></div>
                       <video className="max-w-full mx-auto md:max-w-none h-auto" src={"C:\Users\Yahav\Documents\GitHub\portfolio\public\videos\BI Project-Football analysis1.mp4"} controls width={540} height={405} alt="git-finder" />
                         <p className='text-center text-purple-600 hover:underline'>Click on the video to see the project in detail</p>
