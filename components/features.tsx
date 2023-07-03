@@ -1,47 +1,3 @@
-// export default function Features() {
-//   const full_Name = "Yahav Mesika"
-//   return (
-//     <section>
-//       <div className="max-w-6xl mx-auto px-4 sm:px-6">
-//         <div className="py-12 md:py-20">
-
-//           {/* Section header
-//           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-//             <h2 className="h2 mb-4">Nice to meet you!</h2>
-//             <p className="text-xl text-gray-400">Thank you for visiting my portfolio website.<br/> 
-//             I'm {full_Name}, a fourth-year B.Sc. Industrial Engineering & Management with Information System Expertise student<br/><br/>
-//             With a strong passion for web development and industrial engineering, I strive for excellence in every project I undertake.<br/><br/> 
-//             Through my analytical skills, fast learning abilities, and dedication, I aim to make a positive impact in the field.<br/>
-//              Feel free to explore my projects and skills, and don't hesitate to reach out to discuss potential collaborations or opportunities.<br/> <br/>
-//              Let's connect and create something remarkable together.<br/></p>
-//           </div> */}
-
-//           {/* Items */}
-//           <div className="max-w-sm mx-auto grid gap-8 md:grid-cols-2 lg:grid-cols-3 lg:gap-16 items-start md:max-w-2xl lg:max-w-none" data-aos-id-blocks>
-
-//             {/* 1st item
-//             <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-anchor="[data-aos-id-blocks]">
-//               <svg className="w-16 h-16 mb-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-//                 <rect className="fill-current text-purple-600" width="64" height="64" rx="32" />
-//                 <path className="stroke-current text-purple-100" d="M30 39.313l-4.18 2.197L27 34.628l-5-4.874 6.91-1.004L32 22.49l3.09 6.26L42 29.754l-3 2.924" strokeLinecap="square" strokeWidth="2" fill="none" fillRule="evenodd" />
-//                 <path className="stroke-current text-purple-300" d="M43 42h-9M43 37h-9" strokeLinecap="square" strokeWidth="2" />
-//               </svg>
-//               <h4 className="h4 mb-4  text-center">Achievements</h4>
-//               <p className="text-lg text-gray-400 text-center">2022 - ML Hackathon winner</p><p> 2023 - ML Hackathon winner </p>
-//             </div>  */}
-
-//             {/* 2nd item */}
-//             <div className="relative flex flex-col items-center " data-aos="fade-up" data-aos-delay="100" data-aos-anchor="[data-aos-id-blocks]">
-//               <svg className="w-16 h-16 mb-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-//                 <circle className="fill-current text-purple-600" cx="32" cy="32" r="32" />
-//                 <path className="stroke-current text-purple-100" strokeWidth="2" strokeLinecap="square" d="M21 23h22v18H21z" fill="none" fillRule="evenodd" />
-//                 <path className="stroke-current text-purple-300" d="M26 28h12M26 32h12M26 36h5" strokeWidth="2" strokeLinecap="square" />
-//               </svg>
-//               <h4 className="h4 mb-4 text-center">Skills</h4>
-//               <p className="text-lg text-gray-400 text-center">Python, Tableau, Qlik-Sense, Excel,Machine Learning, NoSQL-MongoDB</p>
-//             </div>
-
-
 export default function Features() {
   const full_Name = "Yahav Mesika"
   return (
@@ -49,7 +5,7 @@ export default function Features() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20">
 
-          {/* Section header */}
+          {/* Section header
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2 mb-4">Nice to meet you!</h2>
             <p className="text-xl text-gray-400">Thank you for visiting my portfolio website.<br/> 
@@ -58,7 +14,7 @@ export default function Features() {
             Through my analytical skills, fast learning abilities, and dedication, I aim to make a positive impact in the field.<br/>
              Feel free to explore my projects and skills, and don't hesitate to reach out to discuss potential collaborations or opportunities.<br/> <br/>
              Let's connect and create something remarkable together.<br/></p>
-          </div>
+          </div> */}
 
           {/* Items */}
           <div className="max-w-sm mx-auto grid gap-8 md:grid-cols-2 lg:grid-cols-3 lg:gap-16 items-start md:max-w-2xl lg:max-w-none" data-aos-id-blocks>
@@ -71,7 +27,7 @@ export default function Features() {
                 <path className="stroke-current text-purple-300" d="M43 42h-9M43 37h-9" strokeLinecap="square" strokeWidth="2" />
               </svg>
               <h4 className="h4 mb-4  text-center">	Achievements</h4>
-              <p className="text-lg text-gray-400 text-center">MSQL, Spss, Ms Project, Knime, Qlik, Tableau, Arena, Word, PowerPoint, Excel</p>
+              <p className="text-lg text-gray-400 text-center"> 2022 - ML Hackathon winner <br/> 2023 - ML Hackathon winner</p>
             </div>
 
             {/* 2nd item */}
