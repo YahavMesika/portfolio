@@ -1,4 +1,4 @@
-// import Image from 'next/image'
+import Image from 'next/image'
 
 import profileImg from '../public/images/DSC_9313.jpg'
 export default function Hero() {
