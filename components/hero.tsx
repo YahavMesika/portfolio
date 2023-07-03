@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 import profileImg from '../public/images/DSC_9313.jpg'
 export default function Hero() {
-  const full_Name = "Ori Keysar"
+  const full_Name = "Yahav Mesika"
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6 relative">
@@ -23,14 +23,15 @@ export default function Hero() {
         {/* Hero content */}
         <div className="relative pt-32 pb-10 md:pt-40 md:pb-16">
 
-          {/* Section header */}
+          {/* Section header*/}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h3 className="h1 mb-4" data-aos="fade-up">{full_Name}:<br/> Industrial Engineering & Web Development</h3>
-            <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">Crafting elegant web solutions, seamlessly blending design and code.
-             <br/>Passionate about industrial engineering and web application development,
-             <br/>I thrive on creating beautifully simple experiences</p>
+            <h3 className="h1 mb-4" data-aos="fade-up">{full_Name}<br/> <span className="text-white-500">B.Sc. Industrial Engineering & Management</span><br/>Specialization in Data Science</h3>
+            <p className="text-xl text-white-400 mb-8" data-aos="fade-up" data-aos-delay="200">
+            I'm a highly motivated and passionate individual with a strong foundation in data analysis.
+            I have a deep thirst for knowledge in the data sector.
+             <br/>available for full-time position</p>
           </div>
-
+        
           
 <Image className="max-w-full mx-auto md:max-w-none h-auto" src={profileImg} width={540} height={405} alt="profileImg"  />
         </div>
