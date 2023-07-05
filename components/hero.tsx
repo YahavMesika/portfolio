@@ -31,7 +31,7 @@ export default function Hero() {
              Looking for a position that combines People & Data. 
               I'm highly motivated and passionate with a strong
               foundation in data analysis and a thirst for knowledge in
-              the data sector. Strong problem-solving, communication, and interpersonal skills. I am particularly interested in
+              the data sector.<br/> I am particularly interested in
               roles such as data analyst, business analyst, and
               marketing analyst.
              <br/>Available for full-time position.</p>
