@@ -41,7 +41,7 @@ export default function Features() {
               <p className="text-lg text-gray-400 text-center">Python, Tableau, Qlik-Sense, Excel, Machine Learning, Neural Networks, NoSQL-MongoDB</p>
             </div>
 
-            {/* 3rd item
+            {/* 3rd item*/}
             <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="200" data-aos-anchor="[data-aos-id-blocks]">
               <svg className="w-16 h-16 mb-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <rect className="fill-current text-purple-600" width="64" height="64" rx="32" />
@@ -52,9 +52,8 @@ export default function Features() {
                 </g>
               </svg>
               <h4 className="h4 mb-4  text-center">information systems analysis and characterization</h4>
-              <p className="text-lg text-gray-400 text-center">ERD, BPMN, USE CASE, CLASS MODEL, SEQUENCE MODEL, State 
-              Chart Modal</p> */}
-            {/* </div> */}
+              <p className="text-lg text-gray-400 text-center"> </p>
+             </div> 
 {/* 
             4th item
             <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="300" data-aos-anchor="[data-aos-id-blocks]">
