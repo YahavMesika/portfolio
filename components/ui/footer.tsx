@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 
 export default function Footer() {
-  const full_Name = "Ori Keysar"
+  const full_Name = "Yahav Mesika"
   return (
     <footer>
       <div className="py-12 md:py-16">
@@ -64,7 +64,7 @@ export default function Footer() {
             </ul>
 
             {/* Copyrights note */}
-            <div className="text-gray-400 text-sm mr-4">&copy; Ori Keysar, All rights reserved.</div>
+            <div className="text-gray-400 text-sm mr-4">&copy; Yahav Mesika, All rights reserved.</div>
 
           </div>
 
