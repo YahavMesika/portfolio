@@ -20,7 +20,7 @@ export default function Features() {
                 {/* Title */}
                 <h4 className="h4 mb-4 text-center">Achievements</h4>
                 {/* Description */}
-                <p className="text-lg text-gray-400 text-center">2022 - ML Hackathon winner<br />2023 - ML Hackathon winner</p>
+                <p className="text-lg text-gray-400 text-center">2022 - ML Hackathon winner<br />2023 - ML Hackathon winner <br/></p>
               </div>
             </div>
 
