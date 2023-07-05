@@ -28,7 +28,12 @@ export default function Hero() {
             <h3 className="h1 mb-4" data-aos="fade-up">{full_Name}<br/> <span className="text-white-500">B.Sc. Industrial Engineering & Management</span><br/>Specialization in Data Science</h3></div>
             <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <p className="text-xl text-white-500 mb-8" data-aos="fade-up" data-aos-delay="200">
-             Looking for a position that combines People & Data.and passionate individual with a strong foundation in data analysis, team player, self learner and striving for knowledge in the data sector.
+             Looking for a position that combines People & Data. 
+              I'm highly motivated and passionate with a strong
+              foundation in data analysis and a thirst for knowledge in
+              the data sector. Strong problem-solving, communication, and interpersonal skills. I am particularly interested in
+              roles such as data analyst, business analyst, and
+              marketing analyst.
              <br/>Available for full-time position.</p>
           </div>
         
