@@ -169,33 +169,33 @@ export default function Zigzag() {
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
                   <div className="font-architects-daughter text-xl text-purple-600 mb-2"></div>
-                  <h3 className="h3 mb-3">Database Management</h3>
-                  <p className="text-xl text-gray-400 mb-4">A personal analysis project for Database Management and characterization. Final task for Database Management course  .</p>
+                  <h3 className="h3 mb-3">Machine Learning Hackaton 2023</h3>
+                  <p className="text-xl text-gray-400 mb-4"> The Hackaton focused on data analysis and ML predictions, challenging us to predict yellow cab counts in NYC for a specific date and time in 2022.<br/>Handling large data sets was difficult, we received a data set with 40 million rows. Each row shows a trip on a specific date and time.</p>
                   <ul className="text-lg text-gray-400 -mb-2">
                     <li className="flex items-center mb-2">
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Creating a frame story.</span>
+                      <span>Using in SQL for group the trips in the same day and time, 365 days * 24 hours per day</span>
                     </li>
                     <li className="flex items-center mb-2">
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>ERD model construction according to the story. </span>
+                      <span>Importing the improved dataset to Colab notebook and makes the EDA process with Python </span>
                     </li>
                     <li className="flex items-center mb-2">
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Conversion to normalized tables (3NF). </span>
+                      <span>Run Reggresion models and improve them </span>
                     </li>
-                    <li className="flex items-center">
+                    {/* <li className="flex items-center">
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
                       <span>relational algebra, advanced SQL queries.</span>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
               </div>
