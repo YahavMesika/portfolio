@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 import FeatImage01 from '@/public/images/FootballS.jpg'
 import FeatImage02 from '@/public/images/github-finder.jpg'
-import FeatImage03 from 'C:\Users\Yahav\Documents\GitHub\portfolio\public\images\ERD.jpg'
+import FeatImage03 from '@/public/images/ERD.jpg'
 import FeatImage04 from '@/public/images/databaseMengment.jpg'
 import FeatImage05 from '@/public/images/qlik.jpg'
 import FeatImage05a from '@/public/images/qlik1.jpg'
