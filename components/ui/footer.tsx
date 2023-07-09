@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 
 export default function Footer() {
-  const full_Name = "Ori Keysar"
+  const full_Name = "Yahav Mesika"
   return (
     <footer>
       <div className="py-12 md:py-16">
@@ -17,18 +17,17 @@ export default function Footer() {
                
               
               </div>
-              <div className="text-gray-400"> Thank you for visiting my portfolio website.<br/> 
-            I'm {full_Name}, a fourth-year B.Sc. Industrial Engineering & Management with Information System Expertise student<br/>
+              <div className="text-gray-400"> Thank you for visiting my portfolio website.<br/> </div>
             </div>
-            </div>
-
+            {/* I'm {full_Name}, a fourth-year B.Sc. Industrial Engineering & Management with Information System Expertise student<br/> */}
+          
             {/* 2nd, 3rd and 4th blocks */}
             <div className="md:col-span-8 lg:col-span-7 grid sm:grid-cols-1 gap-8">
 
             <div className="text-gray-400"> 
-            With a strong passion for web development and industrial engineering.<br/>
-             Feel free to explore my projects and skills, and don't hesitate to reach out to discuss potential collaborations or opportunities.<br/> <br/>
-             Let's connect and create something remarkable together </div>
+            Hi! my name is  {full_Name}, I'm looking for a position that combines People & Data.<br/>
+            I'm highly motivated and passionate with a strong foundation in data analysis and a thirst for knowledge in the data sector.<br/> <br/>
+              </div>
             </div>
 
           </div>
@@ -64,7 +63,7 @@ export default function Footer() {
             </ul>
 
             {/* Copyrights note */}
-            <div className="text-gray-400 text-sm mr-4">&copy; Ori Keysar, All rights reserved.</div>
+            <div className="text-gray-400 text-sm mr-4">&copy; Yahav Mesika, All rights reserved.</div>
 
           </div>
 
