@@ -4,7 +4,7 @@
 
 export default function Newsletter() {
  
-    const email='mailto:Orikeysar1@gmail.com'
+    const email='mailto:yahavmesika@gmail.com'
     const cv_Shered_Url = "https://1drv.ms/b/s!AiLcgmv3UEulibIy8W1AWD3HShqVUA?e=R1ThFl"
    
    
@@ -35,14 +35,14 @@ export default function Newsletter() {
               <h3 className="h3 text-white mb-2">connect me</h3>
               <p className="text-purple-200 text-lg">Send me a message, I'm available for offers!</p>
  <div>
-            <a className="font-medium hover:underline hover:text-xl text-purple-200 mb-2 text-lg text-center" href={cv_Shered_Url} target="_blank" rel="noreferrer">
+            {/* <a className="font-medium hover:underline hover:text-xl text-purple-200 mb-2 text-lg text-center" href={cv_Shered_Url} target="_blank" rel="noreferrer">
                 See my CV
-              </a>
+              </a> */}
               
             </div>
             <span className="italic px-1.5">or</span>{' '}
               <p className="font-medium hover:underline text-emerald-400"  >
-                Call: 052-7416677
+                Call: 054-2522677
               </p>
 
 

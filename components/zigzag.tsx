@@ -5,7 +5,7 @@ import FeatImage02 from '@/public/images/github-finder.jpg'
 import FeatImage03 from '@/public/images/ERD.jpg'
 import FeatImage04 from '@/public/images/TAXI.jpg'
 import FeatImage05 from '@/public/images/qlik.jpg'
-import FeatImage05a from '@/public/images/IMG_0757.jpg'
+import FeatImage05a from '@/public/images/IMG_0747.jpg'
 import FeatImage05b from '@/public/images/qlik2.jpg'
 export default function Zigzag() {
   return (
