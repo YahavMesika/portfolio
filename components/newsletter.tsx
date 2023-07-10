@@ -5,7 +5,7 @@
 export default function Newsletter() {
  
     const email='mailto:yahavmesika@gmail.com'
-    const cv_Shered_Url = "https://1drv.ms/b/s!AiLcgmv3UEulibIy8W1AWD3HShqVUA?e=R1ThFl"
+    // const cv_Shered_Url = "https://1drv.ms/b/s!AiLcgmv3UEulibIy8W1AWD3HShqVUA?e=R1ThFl"
    
    
   return (
