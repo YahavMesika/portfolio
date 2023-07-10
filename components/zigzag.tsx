@@ -4,9 +4,9 @@ import FeatImage01 from '@/public/images/FootballS.jpg'
 import FeatImage02 from '@/public/images/github-finder.jpg'
 import FeatImage03 from '@/public/images/ERD.jpg'
 import FeatImage04 from '@/public/images/databaseMengment.jpg'
-import FeatImage05 from '@/public/images/qlik.jpg'
-import FeatImage05a from '@/public/images/qlik1.jpg'
-import FeatImage05b from '@/public/images/qlik2.jpg'
+import FeatImage05 from '@/public/images/IMG_0757.jpg'
+import FeatImage05a from '@/public/images/IMG_0747.jpg'
+import FeatImage05b from '@/public/images/תמונה1.jpg'
 export default function Zigzag() {
   return (
     <section>
@@ -205,7 +205,7 @@ export default function Zigzag() {
               <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
               {/* Image */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1" data-aos="fade-up">
-              <a href="">
+              <a href="https://github.com/YahavMesika/FinalProject/blob/main/FinalProjectNotebook%20(2).ipynb">
                 <Image className="max-w-full mx-auto md:max-w-none h-auto" src={FeatImage05} width={540} height={202} alt="BI project"  />
                 <Image className="max-w-full mx-auto md:max-w-none h-auto" src={FeatImage05a} width={540} height={202} alt="BI project"  />
                 <Image className="max-w-full mx-auto md:max-w-none h-auto" src={FeatImage05b} width={540} height={202} alt="BI project"  />
@@ -216,40 +216,43 @@ export default function Zigzag() {
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
                   <div className="font-architects-daughter text-xl text-purple-600 mb-2"></div>
-                  <h3 className="h3 mb-3">BI project</h3>
-                  <p className="text-xl text-gray-400 mb-4">A personal analysis project for Database Management and characterization. Final task for Database Management course  .</p>
+                  <h3 className="h3 mb-3">Final project</h3>
+                  <p className="text-xl text-gray-400 mb-4">My final project deals with the Alexander River estuary, the goal of the project is to develop a model using machine learning that will predict the concentration of bacteria in the estuary.</p>
                   <ul className="text-lg text-gray-400 -mb-2">
                     <li className="flex items-center mb-2">
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>selected data set, a complete BI system </span>
+                      <span>Meeting with the estuary researchers and getting to know the data </span>
                     </li>
                     <li className="flex items-center mb-2">
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Contains the schema and interface Dashboard analysis. </span>
+                      <span>EDA process on the database </span>
                     </li>
                     <li className="flex items-center mb-2">
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Qlik framework. </span>
+                      <span>Cross-referencing the primary database with secondary databases </span>
                     </li>
                     <li className="flex items-center">
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Real company analysis.</span>
+                      <span>Descriptive statistics and statistical tests</span>
+                    </li>
+                    <li className="flex items-center">
+                      <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                      </svg>
+                      <span>Models and GUI</span>
                     </li>
                   </ul>
                 </div>
               </div>
             </div>
-
-
-
 
           </div>
         </div>
