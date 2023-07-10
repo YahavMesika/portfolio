@@ -29,6 +29,8 @@ export default function Hero() {
             <Image className="max-w-full mx-auto md:max-w-none h-auto" src={profileImg} width={540} height={405} alt="profileImg"  />
             <div className="max-w-3xl mx-auto text-left pb-12 md:pb-16">
             <p className="text-xl text-white-500 mb-8" data-aos="fade-up" data-aos-delay="200">
+            I'm looking for a position that combines People & Data.
+            I'm highly motivated and passionate with a strong foundation in data analysis and a thirst for knowledge in the data sector.<br/>
               I am particularly interested in roles such as Data Analyst, Business Analyst, Marketing Analyst and BI Developer.
              <br/>Available for full-time position.</p>
           </div>
@@ -37,8 +39,7 @@ export default function Hero() {
 
 
         
-          
-<Image className="max-w-full mx-auto md:max-w-none h-auto" src={profileImg} width={540} height={405} alt="profileImg"  />
+      
         </div>
 
       </div>
