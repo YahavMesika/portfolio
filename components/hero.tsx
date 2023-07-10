@@ -26,11 +26,16 @@ export default function Hero() {
           {/* Section header*/}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h3 className="h1 mb-4" data-aos="fade-up">{full_Name}<br/> <span className="text-white-500">B.Sc. Industrial Engineering & Management</span><br/>Specialization in Data Science</h3></div>
-            <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
+            <Image className="max-w-full mx-auto md:max-w-none h-auto" src={profileImg} width={540} height={405} alt="profileImg"  />
+            <div className="max-w-3xl mx-auto text-left pb-12 md:pb-16">
             <p className="text-xl text-white-500 mb-8" data-aos="fade-up" data-aos-delay="200">
               I am particularly interested in roles such as Data Analyst, Business Analyst, Marketing Analyst and BI Developer.
              <br/>Available for full-time position.</p>
           </div>
+
+          
+
+
         
           
 <Image className="max-w-full mx-auto md:max-w-none h-auto" src={profileImg} width={540} height={405} alt="profileImg"  />
