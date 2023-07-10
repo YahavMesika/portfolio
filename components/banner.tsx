@@ -5,7 +5,7 @@ import { useState } from 'react'
 export default function Banner() {
   const [bannerOpen, setBannerOpen] = useState<boolean>(true)
 const cv_Shered_Url = "https://1drv.ms/b/s!AiLcgmv3UEulibIy8W1AWD3HShqVUA?e=R1ThFl"
-const git_Hub_Profile_Link = "https://github.com/Orikeysar"
+const git_Hub_Profile_Link = "https://github.com/YahavMesika"
   return (
     <>
       {bannerOpen && (
@@ -20,13 +20,13 @@ const git_Hub_Profile_Link = "https://github.com/Orikeysar"
               >
                 Go to GitHub
               </a>{' '}
-              <span className="italic px-1.5">or</span>{' '}
+              {/* <span className="italic px-1.5">or</span>{' '}
               <a className="font-medium hover:underline text-emerald-400" href={cv_Shered_Url} target="_blank" rel="noreferrer">
                 See my CV
-              </a>
+              </a> */}
               <span className="italic px-1.5">or</span>{' '}
               <p className="font-medium hover:underline text-emerald-400"  >
-                Call: 052-7416677
+                Call: 054-2522677
               </p>
             </div>
             <button className="text-slate-500 hover:text-slate-400 pl-2 ml-3 border-l border-gray-700" onClick={() => setBannerOpen(false)}>
