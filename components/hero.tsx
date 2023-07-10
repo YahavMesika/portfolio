@@ -26,7 +26,7 @@ export default function Hero() {
           {/* Section header*/}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h3 className="h1 mb-4" data-aos="fade-up">{full_Name}<br/> <span className="text-white-500">B.Sc. Industrial Engineering & Management</span><br/>Specialization in Data Science</h3></div>
-            <Image className="max-w-full mx-auto md:max-w-none h-auto" src={profileImg} width={540} height={405} alt="profileImg"  />
+            {/* <Image className="max-w-full mx-auto md:max-w-none h-auto" src={profileImg} width={540} height={405} alt="profileImg"  /> */}
             <div className="max-w-3xl mx-auto text-left pb-12 md:pb-16">
             <p className="text-xl text-white-500 mb-8" data-aos="fade-up" data-aos-delay="200">
             I'm looking for a position that combines People & Data.
