@@ -36,7 +36,7 @@ export default function Zigzag() {
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
                   <div className="font-architects-daughter text-xl text-purple-600 mb-4">NoSQL project </div>
-                  <h3 className="h3 mb-3"> Developed in mongoDB tool</h3>
+                  <h3 className="h3 mb-3"> Developed in MongoDB tool</h3>
                   <p className="text-xl text-gray-400 mb-4">Creating a database, Writing functions and queries.</p>
                   <ul className="text-lg text-gray-400 -mb-2">
                     <li className="flex items-center mb-2">

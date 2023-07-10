@@ -25,8 +25,8 @@ export default function Footer() {
             <div className="md:col-span-8 lg:col-span-7 grid sm:grid-cols-1 gap-8">
 
             <div className="text-gray-400"> 
-            Hi! my name is  {full_Name}, I'm looking for a position that combines People & Data.<br/>
-            I'm highly motivated and passionate with a strong foundation in data analysis and a thirst for knowledge in the data sector.<br/> <br/>
+            <br/>
+            <br/> <br/>
               </div>
             </div>
 
