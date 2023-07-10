@@ -160,7 +160,7 @@ export default function Zigzag() {
               <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
               {/* Image */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1" data-aos="fade-up">
-              <a href="https://1drv.ms/b/s!AiLcgmv3UEulg8c94DxJzCjeJN0wAQ?e=bpNTbW">
+              <a href="https://github.com/YahavMesika/Hackaton_Taxi_Prediction/blob/main/Hackathon2023.ipynb">
                 <Image className="max-w-full mx-auto md:max-w-none h-auto" src={FeatImage04} width={540} height={405} alt="Database Management"  />
                 <p className='text-center text-purple-600 hover:underline'>Click on the image to see the project in detailed</p>
                 </a>
