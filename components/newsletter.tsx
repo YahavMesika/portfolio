@@ -35,9 +35,9 @@ export default function Newsletter() {
               <h3 className="h3 text-white mb-2">connect me</h3>
               <p className="text-purple-200 text-lg">Send me a message, I'm available for offers!</p>
  <div>
-             <a className="font-medium hover:underline hover:text-xl text-purple-200 mb-2 text-lg text-center" href={const email} target="_blank" rel="noreferrer">
+             {/* <a className="font-medium hover:underline hover:text-xl text-purple-200 mb-2 text-lg text-center" href={const email} target="_blank" rel="noreferrer">
                 See my CV
-              </a> 
+              </a>  */}
               
             </div>
             <span className="italic px-1.5">yahavmesika@gmail.com</span>{' '}
