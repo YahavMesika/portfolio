@@ -169,7 +169,7 @@ export default function Zigzag() {
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
                   <div className="font-architects-daughter text-xl text-purple-600 mb-2"></div>
-                  <h3 className="h3 mb-3">Machine Learning Hackaton 2023</h3>
+                  <h3 className="h3 mb-3">Machine Learning Hackaton 2023<br/> Developed in Python and SQL</h3>
                   <p className="text-xl text-gray-400 mb-4"> The Hackaton focused on data analysis and ML predictions, challenging us to predict yellow cab counts in NYC for a specific date and time in 2022.<br/>Handling large data sets was difficult, we received a data set with 40 million rows. Each row shows a trip on a specific date and time.</p>
                   <ul className="text-lg text-gray-400 -mb-2">
                     <li className="flex items-center mb-2">
