@@ -3,9 +3,9 @@ import Image from 'next/image'
 import FeatImage01 from '@/public/images/FootballS.jpg'
 import FeatImage02 from '@/public/images/github-finder.jpg'
 import FeatImage03 from '@/public/images/ERD.jpg'
-import FeatImage04 from '@/public/images/databaseMengment.jpg'
-import FeatImage05 from '@/public/images/IMG_0757.jpg'
-import FeatImage05a from '@/public/images/IMG_0747.jpg'
+import FeatImage04 from '@/public/images/TAXI.jpg'
+import FeatImage05 from '@/public/images/qlik.jpg'
+import FeatImage05a from '@/public/images/IMG_0757.jpg'
 import FeatImage05b from '@/public/images/qlik2.jpg'
 export default function Zigzag() {
   return (
@@ -206,9 +206,9 @@ export default function Zigzag() {
               {/* Image */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1" data-aos="fade-up">
               <a href="https://github.com/YahavMesika/FinalProject/blob/main/FinalProjectNotebook%20(2).ipynb">
-                <Image className="max-w-full mx-auto md:max-w-none h-auto" src={FeatImage05} width={540} height={202} alt="BI project"  />
+                {/* <Image className="max-w-full mx-auto md:max-w-none h-auto" src={FeatImage05} width={540} height={202} alt="BI project"  /> */}
                 <Image className="max-w-full mx-auto md:max-w-none h-auto" src={FeatImage05a} width={540} height={202} alt="BI project"  />
-                <Image className="max-w-full mx-auto md:max-w-none h-auto" src={FeatImage05b} width={540} height={202} alt="BI project"  />
+                {/* <Image className="max-w-full mx-auto md:max-w-none h-auto" src={FeatImage05b} width={540} height={202} alt="BI project"  /> */}
                 <p className='text-center text-purple-600 hover:underline'>Click on the image to see the project in detailed</p>
                 </a>
               </div>
